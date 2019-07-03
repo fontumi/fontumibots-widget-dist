@@ -1,0 +1,48 @@
+#fontumibots-chat-container {
+  border-radius: var(--fontumibots-border);
+
+  max-height: calc(100vh - (var(--fontumibots-chat-borders) + 95px));
+
+  position: absolute;
+  right: var(--fontumibots-chat-borders);
+  margin-left: 10px;
+
+  bottom: calc(10px + 55px + var(--fontumibots-chat-borders));
+  z-index: var(--fontumibots-z-index);
+}
+
+#fontumibots-chat-container > .uk-card-body {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  overflow-x: hidden;
+
+  max-height: calc(100vh - 330px);
+}
+
+#fontumibots-chat-container > .uk-card-footer {
+  padding: 6px 10px;
+}
+
+fontumibots-chat-input .uk-inline {
+  width: 100%;
+}
+
+#fontumibots-chat-container-input {
+  border-radius: 30px;
+}
+
+.fontumibots-message > div > p {
+  margin: 7px 10px;
+}
+
+.fontumibots-message > div {
+  display: inline-flex;
+  max-width: 90%;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.uk-button {
+  border-radius: 30px;
+}

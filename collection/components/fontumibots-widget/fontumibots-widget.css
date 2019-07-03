@@ -1,0 +1,22 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit.min.css");
+
+:host {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  background: #fff;
+  color: #666;
+
+  --fontumibots-border: 3px;
+  --fontumibots-z-index: 99999999;
+  --fontumibots-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+
+  --fontumibots-chat-borders: 25px;
+
+  --fontumibots-color-a: red;
+  --fontumibots-color-b: blue;
+}
