@@ -1,0 +1,19 @@
+{
+  "entries": [
+    "components\\fontumibots-bubble-button\\fontumibots-bubble-button.js",
+    "components\\fontumibots-icon\\fontumibots-icon-end-call.js",
+    "components\\fontumibots-icon\\fontumibots-icon-call.js",
+    "components\\fontumibots-icon\\fontumibots-icon-close.js",
+    "components\\fontumibots-icon\\fontumibots-icon-messages.js",
+    "components\\fontumibots-widget\\fontumibots-widget.js",
+    "components\\fontumibots-chat\\fontumibots-chat-container.js",
+    "components\\fontumibots-chat\\fontumibots-chat-input.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "1.1.6",
+    "typescriptVersion": "3.5.2"
+  },
+  "collections": [],
+  "bundles": []
+}

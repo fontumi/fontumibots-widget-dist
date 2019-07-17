@@ -1,0 +1,21 @@
+#fontumibots-bubble-button {
+  position: fixed;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+
+  box-shadow: var(--fontumibots-shadow);
+
+  border-radius: 50%;
+  position: fixed;
+  height: 55px;
+  width: 55px;
+  bottom: var(--fontumibots-chat-borders);
+  right: var(--fontumibots-chat-borders);
+  z-index: var(--fontumibots-z-index);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
